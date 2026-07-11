@@ -29,6 +29,18 @@ Where:
 
 ---
 
+## 📊 Risk Metrics Explained
+
+This dashboard implements two primary metrics to quantify downside tail-risk over the 90-day simulation horizon:
+
+### 1. Value at Risk (VaR)
+Value at Risk calculates the maximum expected loss over a targeted time horizon within a given confidence level. For example, a **95% 90-Day VaR** means there is a 95% statistical confidence that the portfolio will not lose more than the calculated dollar amount over the next 90 days. It defines the boundary line where the worst 5% of outcomes begin.
+
+### 2. Expected Shortfall (CVaR / Conditional VaR)
+While VaR identifies the boundary of the danger zone, it fails to capture how severe the losses are once that boundary is breached. Expected Shortfall addresses this limitation by calculating the **average loss of all scenarios that fall below the VaR threshold** (the worst 5% of outcomes).
+
+---
+
 ## 🛠️ Installation & Usage
 
 ### Prerequisites
