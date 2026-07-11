@@ -37,6 +37,7 @@ Make sure you have Python installed alongside the required numerical and plottin
 ```bash
 pip install numpy pandas yfinance matplotlib
 ---
-```markdown
+```
+markdown
 ## Visualizing the 10,000 Futures
 ![AAPL Simulation Chart](simulation_plot.png)
